@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Signika', sans-serif;
+  padding: 15px 10px;
+}
+
+img {
+  width: 200px;
+  padding-bottom: 5px;
+  border-radius: 50%;
+}
+
+p {
+  width: 300px;
+}
+
+.hero {
+  background-image: url('images/torshov.jpg');
+  background-size: cover;
+  padding-top: 15px;
+  padding-bottom: 350px;
+  color: #f3e9dc;
+}
+
+.activities {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f3e9dc;
+  color: #4d5061;
+  /* font-family: 'Signika', sans-serif; */
+}
+
+.tour-guide {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #628395;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* border-bottom: 4px solid #c1b4ae; */
+  box-shadow: 5px 5px #c1b4ae;
+}
+
+.guide-info {
+  /* font-family: 'Signika', sans-serif; */
+  color: #b8d8ba;
+}
+
+.title {
+  background: #1d4662;
+  margin-top: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  /* font-family: sans-serif; */
+  font-size: 30px;
+}
+
+.invite {
+  background: #1d4662;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  padding: 5px 0;
+  border-radius: 5px;
+  /* font-family: sans-serif; */
+  font-size: 21px;
+}
+
+#heading {
+  margin: 0;
+  text-align: center;
+  background-color: #f3e9dc;
+  padding: 30px 0 40px 0;
+  color: #4d5061;
+  /* font-family: sans-serif; */
+}
+
+#guide-img {
+  width: 175px;
+  border-radius: 0;
+}
